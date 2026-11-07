@@ -1,10 +1,9 @@
 .hero {
   padding: clamp(20px, 5vw, 60px);
   text-align: center;
-  background: #0d284c;
-
-  .hero-title {
-    color: #22c55e;
-    font-size: clamp(1.5rem, 4vw, 3rem);
-  }
+  background-color: #0d284c;
+}
+.hero-title {
+  color: #22c55e;
+  font-size: clamp(1.5rem, 4vw, 3rem);
 }
