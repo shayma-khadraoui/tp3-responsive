@@ -3,26 +3,33 @@
   justify-content: space-between;
   align-items: center;
   padding: 12px 20px;
-  background: #0b1f3a;
+  background-color: #0b1f3a;
+}
+.logo {
+  color: white;
+  font-weight: bold;
 }
 .hamburger {
   display: block;
-  background: none;
-  border: none;
-  color: white;
   font-size: 24px;
-
-  @media (min-width: 768px) {
-    display: none;
-  }
+  background: none;
+  color: white;
+  border: none;
 }
 .nav-links {
   display: none;
   list-style: none;
-  a { color: white; text-decoration: none; }
-
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+  .nav-links {
     display: flex;
     gap: 20px;
+  }
+  .nav-links a {
+    color: white;
+    text-decoration: none;
   }
 }
